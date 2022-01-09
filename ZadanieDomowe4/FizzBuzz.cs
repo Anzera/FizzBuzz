@@ -34,7 +34,7 @@ namespace ZadanieDomowe4
             else if (number % 5 == 0)
                 return "Buzz";
             else
-                return $"{number}";
+                return number.ToString();
         }
     }
 }
